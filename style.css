@@ -1,0 +1,111 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #30323D;
+  font-size: 1.2rem;
+  color:white;
+}
+
+.info {
+ width: 100%;
+ display: flex;
+ align-items: flex-start;
+ flex-direction: column;
+
+}
+
+/* Sidebar and logo */
+
+.logo-container {
+  width: auto;
+  height: 150px;
+  margin: 0 5px;
+
+}
+
+
+ .logo-img {
+  background-image: url(/images/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+  height: 150px;
+}
+
+.side-bar {
+  width:12.5%;
+  float: right;
+  height: 124%;
+  min-height: 124%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #E1D6CD;
+}
+
+
+/* Header */
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 87.5%;
+  float:left;
+  padding-right: 0;
+  padding-left: 12.5%;
+  height: 150px;
+}
+
+
+.main-nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav li {
+  padding: 0 1.5rem;
+  font-size: 1.5rem;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: inherit;
+  padding: 0 1.2rem;
+}
+
+.main-nav a:hover {
+  color: #adadad;
+}
+
+.underline-animation {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom left;
+  transition: transform 0.3s ease-out;
+}
+
+.underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+ 
