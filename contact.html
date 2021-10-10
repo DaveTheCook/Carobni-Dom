@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="contact.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5e9ea637cd.js" crossorigin="anonymous"></script>
+    <title>Čarobni Dom</title>
+</head>
+<body>
+  <div class="info">
+    <header class="main-header">
+      <nav class="main-nav">
+        <ul>
+          <li><a class="underline-animation" href="/index.html">Naslovnica</a></li>
+          <li><a class="underline-animation" href="/cjenik.html">Cjenik</a></li>
+          <li><a class="underline-animation" href="/contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="social-media-icons">
+        <span>
+          <a href="/"><i class="fab fa-facebook"></i></a>
+        </span>
+        <span>
+          <a href="/"><i class="fab fa-instagram"></i></a>
+        </span>
+        <span>
+          <a href="/"><i class="fab fa-whatsapp"></i></a>
+        </span>
+      </div>
+    </header>
+      <div class="side-bar">
+        <div class="logo-container">
+          <a href="/" class="brand-logo">
+            <div class="logo-img" ></div>
+          </a>
+        </div>
+      </div>
+  </div>
+
+  <section class="form-container">
+    <form class="form" action="" method="POST">
+      <div class="name">
+        <label for="name" >Ime: 
+          <input type="text" required>
+        </label>
+       </div>
+      <div class="email">
+        <label for="email" >Email: 
+          <input type="email" required>
+        </label>
+      </div>
+      <div class="phone">
+        <label for="phone"> Telefon:
+          <input type="text" required>
+        </label>
+      </div>
+      <div class="adress">
+        <label for="adress"> Adresa:
+          <input type="text" required>
+        </label>
+      </div>
+      <div class="text">
+        <p>Ako imate dodatne komentare upišite ovdje</p>
+        <textarea name="message"></textarea>
+      </div>
+      <button class="submit">Pošalji</button>
+    </form>
+  </section>
+
+  <section class="footer">
+    <footer class="footer-container">
+      <p>&copy; Copyright 2021</p> 
+      <p>Design by David Skrbin</p>
+    </footer>
+  </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>

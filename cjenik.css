@@ -1,0 +1,35 @@
+
+.tabels-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #E1D6CD;
+    padding-bottom: 25px;
+    background: linear-gradient(5deg, rgba(235,229,229,1) 0%, 
+    rgba(225,214,205,1) 66%);
+}
+
+table {
+    height: 80vh;
+    width: 60vw;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    width: 150px;
+    height: 45px;
+    border: 1px solid black;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: black;
+}
+
+h2 {
+    color: #000;
+}
+
+.side-bar {
+    min-height: 130px;
+    height: 130px;
+}
