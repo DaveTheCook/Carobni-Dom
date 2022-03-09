@@ -114,6 +114,10 @@ body {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+.social-media-icons {
+  width: auto;
+}
  
 /* footer */
 
